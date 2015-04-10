@@ -1,0 +1,97 @@
+# SpriteBuilder
+#
+*.ppng
+Source/Resources/Published-iOS
+Source/Resources/Published-Android
+Published-Packages
+*.backup
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+
+# Pods - for those of you who use CocoaPods
+Pods
+
+# Mac OSX
+.DS_Store
+.DS_Store?
+Icon?
+.hg/*
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+#
+# Pods/
+
+
+
+materials/don't 2.0/AppIcon76x76@2x~ipad.png
+
+materials/don't 2.0/AppIcon76x76~ipad.png
+
+materials/ss5.5.png
+
+materials/don't 2.0/AppIcon60x60@2x.png
+
+materials/don't 2.0/BigBirdHigh.png
+
+materials/don't 2.0/bird.png
+
+materials/don't 2.0/BirdNewNew.png
+
+materials/don't 2.0/birdiconiphone5test.png
+
+materials/don't 2.0/dontscore.png
+
+materials/don't 2.0/dontshare.png
+
+materials/don't 2.0/HitWall.caf
+
+materials/don't 2.0/iconipad.png
+
+materials/don't 2.0/iconIphone6plus.png
+
+materials/don't 2.0/newBirdSound.caf
+
+materials/ss5.5-2.png
+
+materials/ss4.png
+
+materials/ss4.7.png
+
+materials/ss5.5-1.png
+
+materials/ss4.7-2.png

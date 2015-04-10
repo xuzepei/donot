@@ -1,0 +1,152 @@
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import "cocos2d.h"
+#import "cocos2d-ui.h"
+#import "RCTool.h"
+#endif
+
+#ifndef DEBUG
+#define NSLog //
+#endif
+
+#define TIME_OUT 20
+
+#define CT_UNKNOWN 0
+#define CT_XML 1
+#define CT_JSON 2
+
+#define NAVIGATION_BAR_COLOR [UIColor colorWithRed:1/255.0 green:164/255.0 blue:241/255.0 alpha:1.0]
+#define TAB_BAR_TEXT_COLOR [UIColor colorWithRed:2/255.0 green:164/255.0 blue:239/255.0 alpha:1.0]
+#define TAB_BAR_COLOR [UIColor colorWithRed:248/255.0 green:248/255.0 blue:248/255.0 alpha:1.0]
+#define BG_COLOR [RCTool colorWithHex:0xdbe0e4]
+#define STATUS_BAR_HEIGHT 20.0
+#define NAVIGATION_BAR_HEIGHT 44.0
+#define TAB_BAR_HEIGHT 50.0
+#define PICKER_VIEW_HEIGHT 256.0
+
+#define VERSION @"1.0"
+
+#define UMENG_KEY @""
+
+#define APP_URL @"https://itunes.apple.com/app/id980838654?mt=8"
+
+//广告ID
+#define AD_ID @""
+#define SCREEN_AD_ID @"ca-app-pub-1207330468801232/5206082786"
+#define SCREEN_AD_RATE 5
+
+//获取协同信息URL
+#define APP_INFO_URL @"http://www.tapguilt.com/api/donot.php"
+
+//密钥
+#define SECRET_KEY @"20150328"
+
+
+#define LOG_HERE CCLOG(@"%@: %@",NSStringFromSelector(_cmd),self)
+#define WIN_SIZE [[CCDirector sharedDirector] viewSize]
+#define DIRECTOR [CCDirector sharedDirector]
+#define PTM_RATIO 32.0
+#define LEADERBOARD_SCORES_ID @"com.donotduang.highscores"
+#define LEADERBOARD_PLAYTIMES_ID @"com.donotduang.playtimes"
+
+//定义通知
+#define GAMEOVER_NOTIFICATION @"GAMEOVER_NOTIFICATION"
+#define MYSCORE_NOTIFICATION @"MYSCORE_NOTIFICATION"
+
+//声音文件
+#define SOUND_HIT @"hit.caf"
+#define SOUND_JUMP @"jump.caf"
+
+
+//场景类型
+typedef enum
+{
+    ST_UNKNOWN = 0,
+    ST_HOME,
+    ST_BEATMOLE,
+}SCENE_TYPE;
+
+//分享类型
+typedef enum{
+    SHT_UNKNOWN = -1,
+    SHT_MESSAGE,
+    SHT_EMAIL,
+    SHT_QQ,
+    SHT_SINA
+}SHARE_TYPE;
+
+//标识
+typedef enum{
+    T_UNKNOWN = 0,
+    T_HOMEMENU_ACHIEVEMENT,
+    T_HOMEMENU_LEADERBOARD,
+    T_HOMEMENU_START,
+    T_HOMEMENU_ABOUT,
+    T_HOMEMENU_SETTING,
+    T_PAUSE_LAYER,
+    T_PAUSE_BUTTON,
+    T_PIPE_0,
+    T_PIPE_1,
+    T_PIPE_2,
+    T_PIPE_3,
+    T_PIPE_4,
+    T_PIPE_5,
+    T_PIPE_6,
+    T_PIPE_7,
+    T_PIPE_8,
+    T_PIPE_9,
+    T_COIN_0,
+    T_COIN_1,
+    T_COIN_2,
+    T_COIN_3,
+    T_PIPE_X,
+}TAG;
+
+//记录类型
+typedef enum{
+    RT_UNKNOWN = -1,
+    RT_SCORE,
+    RT_BEST,
+    RT_COIN,
+    RT_PLAYTIMES,
+}RECORD_TYPE;
+
+//成就类型
+typedef enum{
+    AT_UNKNOWN = -1,
+    AT_ESCAPE,
+    AT_SHOOTER,
+    AT_MARATHON,
+    AT_CAKE,
+    AT_KUNGFU,
+    AT_MILLIONAIRE,
+}ACHIEVEMENT_TYPE;
+
+//随机类型
+typedef enum{
+    RDM_BG,
+    RDM_PIPE,
+    RDM_DUCK,
+    RDM_ANGRY_PIPE,
+    RDM_LAND,
+}RANDOM_TYPE;
+
+//GameCenter对战数据包结构
+typedef struct
+{
+    int type;
+    int count;
+    float a[200];
+}DataPacket;
+
+//包消息类型
+typedef enum{
+    PMT_UNKNOWN = -1,
+    PMT_READY,
+    PMT_TAP,
+    PMT_LOSE,
+    PMT_PIPES,
+    PMT_ROLE,
+}PACKET_MESSAGE_TYPE;
