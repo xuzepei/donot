@@ -317,8 +317,12 @@ typedef enum
 {
     if([GCHelper sharedInstance].myScore)
     {
-        [RCTool setRecordByType:RT_BEST value:[GCHelper sharedInstance].myScore.value];
-        [self updateScore];
+        int bestScore = [RCTool getRecordByType:RT_BEST];
+        if([GCHelper sharedInstance].myScore.value > bestScore)
+        {
+            [RCTool setRecordByType:RT_BEST value:[GCHelper sharedInstance].myScore.value];
+            [self updateScore];
+        }
     }
 }
 

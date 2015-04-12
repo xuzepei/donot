@@ -64,6 +64,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    [super applicationDidBecomeActive:application];
+    
     //推送设置
     UIApplication* app = [UIApplication sharedApplication];
     app.applicationIconBadgeNumber = 0;

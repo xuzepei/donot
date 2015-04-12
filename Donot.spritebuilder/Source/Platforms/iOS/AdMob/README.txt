@@ -1,5 +1,5 @@
 =============================
-Google Mobile Ads SDK 7.0.0 for iOS
+Google Mobile Ads SDK for iOS
 =============================
 
 This is the Google Mobile Ads SDK for iOS.

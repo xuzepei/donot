@@ -20,8 +20,8 @@
 		097FE58A1AC0F49700642888 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097FE5891AC0F49700642888 /* MessageUI.framework */; };
 		097FE58C1AC0F49F00642888 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097FE58B1AC0F49F00642888 /* Social.framework */; };
 		097FE5921AC0F60500642888 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097FE5911AC0F60500642888 /* GameController.framework */; };
-		098B36CC1AC59D6B009697C7 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098B36CA1AC59D6B009697C7 /* GoogleMobileAds.framework */; };
-		098B36CD1AC59D6C009697C7 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 098B36CB1AC59D6B009697C7 /* README.txt */; };
+		098947D31AD9159400D42739 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098947D11AD9159400D42739 /* GoogleMobileAds.framework */; };
+		098947D41AD9159400D42739 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 098947D21AD9159400D42739 /* README.txt */; };
 		098B36D31AC59DA1009697C7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098B36D21AC59DA1009697C7 /* AdSupport.framework */; };
 		098B36D51AC59DC0009697C7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098B36D41AC59DC0009697C7 /* CoreTelephony.framework */; };
 		098B36D81AC59DC7009697C7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098B36D61AC59DC7009697C7 /* EventKit.framework */; };
@@ -103,8 +103,8 @@
 		097FE5891AC0F49700642888 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		097FE58B1AC0F49F00642888 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		097FE5911AC0F60500642888 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
-		098B36CA1AC59D6B009697C7 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		098B36CB1AC59D6B009697C7 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		098947D11AD9159400D42739 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		098947D21AD9159400D42739 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		098B36D21AC59DA1009697C7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		098B36D41AC59DC0009697C7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		098B36D61AC59DC7009697C7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
@@ -159,13 +159,13 @@
 				0970BAD41AC6A26C00945C3B /* GameKit.framework in Frameworks */,
 				097FE5881AC0F48800642888 /* SystemConfiguration.framework in Frameworks */,
 				7A97911819E631CD001FFC4D /* libcocos2d.a in Frameworks */,
+				098947D31AD9159400D42739 /* GoogleMobileAds.framework in Frameworks */,
 				8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */,
 				B77F1B3217B978D7009739AE /* QuartzCore.framework in Frameworks */,
 				B77F1B3417B978D7009739AE /* OpenGLES.framework in Frameworks */,
 				B77F1B3617B978D7009739AE /* OpenAL.framework in Frameworks */,
 				B77F1B3C17B978D7009739AE /* UIKit.framework in Frameworks */,
 				B77F1B3E17B978D7009739AE /* Foundation.framework in Frameworks */,
-				098B36CC1AC59D6B009697C7 /* GoogleMobileAds.framework in Frameworks */,
 				B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,8 +217,8 @@
 		098B36C91AC59D6B009697C7 /* AdMob */ = {
 			isa = PBXGroup;
 			children = (
-				098B36CA1AC59D6B009697C7 /* GoogleMobileAds.framework */,
-				098B36CB1AC59D6B009697C7 /* README.txt */,
+				098947D11AD9159400D42739 /* GoogleMobileAds.framework */,
+				098947D21AD9159400D42739 /* README.txt */,
 			);
 			name = AdMob;
 			path = Source/Platforms/iOS/AdMob;
@@ -525,8 +525,8 @@
 				09667D371AC7941F00E212CB /* jump.caf in Resources */,
 				09667D3D1AC816CB00E212CB /* Images.xcassets in Resources */,
 				09667D361AC7941F00E212CB /* hit.caf in Resources */,
-				098B36CD1AC59D6C009697C7 /* README.txt in Resources */,
 				B737893B180761570076A88C /* Published-iOS in Resources */,
+				098947D41AD9159400D42739 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,8 +706,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: xu zepei";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: xu zepei";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -730,7 +730,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = Donot;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "3bbf95a5-c6dd-423b-bbff-3fa0f48cb282";
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

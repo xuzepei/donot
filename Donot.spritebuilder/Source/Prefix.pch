@@ -35,7 +35,7 @@
 //广告ID
 #define AD_ID @""
 #define SCREEN_AD_ID @"ca-app-pub-1207330468801232/5206082786"
-#define SCREEN_AD_RATE 5
+#define SCREEN_AD_RATE 10
 
 //获取协同信息URL
 #define APP_INFO_URL @"http://www.tapguilt.com/api/donot.php"
